@@ -1,44 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Journal</title>
 
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <header>
-        <img src="" alt="logo">
-        <h1>My learning journal</h1>
         <nav>
+            <div class="logo-container">
+                <img class="icon" src="./images/icon.png" alt="icon">
+                <h1 class="logo">My learning journal</h1>
+            </div>
             <ul>
-                <li>Home</li>
-                <li>About me</li>
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#">About me</a></li>
             </ul>
         </nav>
         <div class="featured-post">
             <p>December 10, 2022</p>
             <h1>My new journey as a Scrimba student.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quis praesentium laudantium quasi deleniti voluptas quaerat 
-                rem repellat repudiandae. Nisi quo reprehenderit eveniet ratione 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quis praesentium laudantium quasi deleniti voluptas quaerat
+                rem repellat repudiandae. Nisi quo reprehenderit eveniet ratione
                 repellat esse perferendis, deserunt placeat sint. Impedit?
             </p>
         </div>
     </header>
 
     <main>
-        <section class="recent-blog-post">
-            <article>Blog 1</article>
-            <article>Blog 2</article>
-            <article>Blog 3</article>
+        <section class="recent-blog-posts">
+            <article class="blog-post">
+                <img src="./images/article-image-01.png" alt="">
+                <h2>Blog one</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis praesentium laudantium quasi deleniti voluptas quaerat
+                    rem repellat repudiandae.
+                </p>
+                <p>December 10, 2022</p>
+            </article>
+            <article class="blog-post">
+                <img src="./images/article-image-02.png" alt="">
+                <h2>Blog Two</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis praesentium laudantium quasi deleniti voluptas quaerat
+                    rem repellat repudiandae.
+                </p>
+                <p>December 10, 2022</p>
+            </article>
+            <article class="blog-post">
+                <img src="./images/article-image-03.png" alt="">
+                <h2>Blog Three</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis praesentium laudantium quasi deleniti voluptas quaerat
+                    rem repellat repudiandae.
+                </p>
+                <p>December 10, 2022</p>
+            </article>
         </section>
     </main>
-    
-    <footer>
 
+    <footer>
+        <p>My Learning Journal</p>
+        <p>Copyright ©2022</p>
     </footer>
 </body>
+
 </html>
