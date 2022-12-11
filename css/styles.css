@@ -97,7 +97,14 @@ nav ul {
     margin: .2em 0;
 }
 
+.featured-title .link {
+    color: #fff;
+}
 
+.featured-title .link:hover,
+.featured-title .link:focus {
+    text-shadow: 0 0 2px #ffffff;
+}
 
 
 
@@ -129,7 +136,12 @@ main {
 
 .blog-title {
     margin: .5em 0;
-    cursor: pointer;
+}
+
+.blog-title:hover,
+.blog-title:focus {
+    /* font-size: 1.6rem; */
+    text-shadow: 1px 1px 5px #dddddd;
 }
 
 .blog-body {
@@ -168,7 +180,10 @@ footer {
     text-transform: uppercase;
 }
 
-
+.link {
+    text-decoration: none;
+    color: #090909;
+}
 
 
 
