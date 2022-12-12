@@ -1,0 +1,78 @@
+/***** MAIN SECTION *****/
+
+h4 {
+    font-size: 1rem;
+}
+
+/* ARTICLES */
+
+.article-image {
+    width: 100%;
+    object-fit: cover;
+    /* overflow: hidden; */
+}
+
+.article-intro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5em;
+}
+
+.article-intro .date {
+    order: -1;
+}
+
+.article-title {
+    margin: 0 0 .3em;
+}
+
+.article-body {
+    margin-bottom: 3em;
+}
+
+.recent-post-title {
+    text-align: center;
+}
+
+.article-intro p,
+.article-body p {
+    margin-bottom: 1em;
+}
+
+/***** MEDIA QUERIES  *****/
+
+@media (max-width:380px) {
+    .article-intro {
+        margin-top: 5.5em;
+    }
+}
+
+
+@media (min-width: 600px) {
+    .article-intro,
+    .article-body {
+        padding: 0 3em;
+    }
+
+    .article-title {
+        font-size: 2rem;
+    }
+
+    .article-image {
+        max-height: 400px;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+    }
+
+
+}
+
+@media (min-width: 1000px) {}
+
+@media (min-width: 1400px) {
+    .article-image {
+        max-height: 550px;
+    }
+}
