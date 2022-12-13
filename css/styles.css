@@ -149,21 +149,6 @@ main {
 }
 
 
-/* ARTICLES */
-
-/* .image-container {
-    height: 250px; 
-    width: 100%; 
-    overflow: hidden;
-} */
-
-.article-image {
-    width: 100%;
-    object-fit: cover;
-    /* overflow: hidden; */
-}
-
-
 /***** FOOTER  *****/
 
 footer {
@@ -194,6 +179,10 @@ footer {
 .link {
     text-decoration: none;
     color: #090909;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 
@@ -230,11 +219,6 @@ footer {
     .date {
         font-size: 1rem;
     }
-
-    .article-image {
-        max-height: 400px;
-    }
-    
 
 }
 
