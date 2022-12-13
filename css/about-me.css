@@ -2,6 +2,10 @@ nav {
     box-shadow: 1px 1px 5px #d4d4d4;
 }
 
+p {
+    margin-bottom: 1em;
+}
+
 /* ABOUT ME */
 .about-me-intro {
     display: flex;
